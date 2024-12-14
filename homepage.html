@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <style>
+        .IGDTUW span {
+            font-size: 90px;
+            font-weight: bold;
+            display: inline-block;
+            text-align: center;
+            
+            font-style: var(3d);
+        }
+       .i{
+        color: purple;
+       }
+       .women{
+        color:pink
+       }
+       .d{
+        color: aliceblue;
+       }
+       body{
+        background-color: black;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        font-style: var(3d);
+        margin: 0%;
+        display: flex;
+       
+        padding: 0%;
+        
+
+
+
+       }
+       video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="IGDTUW">
+        <span class="i">IG</span>
+        <span class="d">DTU</span>
+        <span class="women">W</span>
+    </div>
+    
+        <div class="video">
+            <video   loop muted autoplay>
+                <source src="#">
+                
+            </video>
+        <script>
+            window.onload = function(){
+                document.getElementsByClassName("video").play();
+    
+            }
+    
+        </script>
+    
+    </div>
+</body>
+</html>
